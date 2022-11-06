@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+   <form>
+    <fieldset>
+        <legend>Общая информация</legend>
+        <div>
+            <label for="choce1">Фамилия</label>
+            <input type="text" name="Surname" placeholder="Иванов">
+        </div>
+        <br>
+        <div>
+            <label for="choce2">Имя</label>
+            <input type="text" name="Name" placeholder="Иван">   
+        </div>
+        <br>
+        <div>    
+            <label for="choce3">Отчество</label>
+            <input type="text" name="Second_name" placeholder="Иванович">
+        </div>
+        <br>
+        <div>    
+            <label for="choce4">Email</label>
+            <input type="text" name="email" placeholder="mail@mail.ru">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Пол</legend>
+        <div>
+            <input type="radio" id="M" name="sex1" value="male">
+            <label for="choce5">М</label>
+            <input type="radio" id="F" name="sex2" value="female">
+            <label for="choce5">Ж</label>
+        </div>
+    </fieldset> 
+    <fieldset>
+        <legend>Хобби</legend>
+        <div>
+            <input type="checkbox" id="R1" name="hobby1" value="paint">
+            <label for="choce5">Рисование</label>
+            <input type="checkbox" id="R2" name="hobby2" value="read">
+            <label for="choce6">Чтение</label>
+            <input type="checkbox" id="R3" name="hobby3" value="knitting">
+            <label for="choce5">Вязание</label>
+            <input type="checkbox" id="R4" name="hobby4" value="cook">
+            <label for="choce6">Кулинария</label>
+        </div>
+    </fieldset> 
+    <br>
+    <div>
+        <button type="submit">Отправить</button> 
+        <button type="clear">Очистить</button> 
+    </div>    
+   </form> 
+</body>
+</html>
